@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" href="task3.css">
+	<script type="text/javascript" src="task3.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>Temperature Converter</h1>
+	</header>
+	<main>
+		<div class="wrapper">
+			<div class="imp">
+				<label>Enter Temperature</label>
+				<input type="number" id="temperature">
+				
+				<br>
+				<label>Select Type</label>
+				<select id="type">
+					<option value="cs" id="type">Celsius</option>
+					<option value="fh" id="type">Farenhit</option>
+					<option value="kv" id="type">Kelvin</option>
+				</select>
+				<br><br>
+				<center><button onclick="Convert()">Convert</button></center>
+
+				<label>Celsius Value</label>
+				<p><input type="number" id="celsius"> °C</p>
+				<label>Fahrenheit Value</label>
+				<p><input type="number" id="farenhit"> °F</p>
+				<label>Kelvin Value</label>
+				<p><input type="number" id="kelvin"> K</p>
+				<br>
+				<center><button onclick="Resetfun()">Reset</button></center>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
