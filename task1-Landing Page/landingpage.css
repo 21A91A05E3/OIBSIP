@@ -1,0 +1,56 @@
+html
+	{
+		background: url(https://img.freepik.com/premium-photo/muesli-bowl-ingredients-healthy-breakfast-granola-nuts-dried-fruits-flakes-honey-greek-yogurt-white-tableb-copy-space_630207-2733.jpg?w=1060) no-repeat center center fixed;
+		background-size: cover;
+		height: 100%;
+		overflow: hidden;
+	}
+h1{
+	font-size: 50px;
+}
+h3{
+	font-size: 42px;
+}
+#navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#navbar li{
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+}
+#navbar li a{
+	font-size: 20px;
+	color: black;
+	transition: 0.3s ease;
+}
+.head{
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+	color: red;
+}
+#main{
+	align-items: center;
+	dispaly: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+button.red{
+	font-size: 24px;
+	color: black;
+	background-color: red;
+	border: 1px solid red;
+}
+#main button{
+	margin-top: 20px;
+	align-items: center;
+}
+p{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+}
